@@ -1,7 +1,6 @@
 using System;
 
 // SERIALIZACIÓN
-
 [Serializable]
 public class Carro
 {
@@ -12,4 +11,8 @@ public class Carro
     public float z;
 
     public int dir;
+
+    public int semStateColor1;
+
+    public int semStateColor2;
 }
